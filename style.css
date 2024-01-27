@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+*{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+html{
+  min-height: 100%;
+
+}
+body{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(45deg, #C33764, #1D2671);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    
+    border-radius: 25px;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-width: 800px;
+    max-width: max-content;
+    min-height: 500px;
+    max-height: fit-content;
+}
+.container h1{
+    font-size: 60px;
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+#searchResults{
+    display: flex;
+    
+}
+.search-box{
+    text-align: center;
+    display:inline;
+    width: 100%;
+    margin-top: 47px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.search-box input{
+    width: 470px;
+    height:35px;
+    font-size: 25px;
+    border-radius: 25px;
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0);
+    border: none;
+    box-shadow: none;
+}
+::placeholder{
+    color: black;
+}
+.one {
+    background-color:rgb(255, 213, 0);
+    color: black;
+    margin-left: 10px;
+    width: 180px;
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 65px;
+    font-size: 24px;
+    border-radius: 25px;
+    border:none;
+    transition: all 0.2s;;
+    box-shadow: none;
+}
+.one:hover{
+    cursor:pointer;
+    background-color:rgba(255, 213, 0,1);
+    border: solid 3px white;
+    color: white;
+}
+.name{
+    display: inline-flex;
+
+}
+.name img{
+    height:125px;
+    width: 125px;
+    position: relative;
+    top :20px;
+    left: 20px;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 25px;
+   
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+strong{
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+p{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 25px;
+   
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.onet {
+    background-color:rgb(255, 213, 0);
+    color: black;
+    margin-left: 10px;
+    width: 125px;
+    font-family: "kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    border:none;
+    transition: all 0.2s;;
+    box-shadow: none;
+}
+.onet:hover{
+    cursor:pointer;
+    background-color:rgba(255, 213, 0,1);
+    border: solid 3px white;
+    color: white;
+}
